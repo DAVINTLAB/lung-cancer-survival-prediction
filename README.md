@@ -29,9 +29,10 @@ Os modelos foram implementados de duas formas **lung_cancer_survival_prediction.
 - [Chardet](https://pypi.org/project/chardet/)
 - [Openpyxl](https://openpyxl.readthedocs.io/)
 - [jinja2](https://pypi.org/project/Jinja2/)
+- [SHAP](https://shap.readthedocs.io/)
 
 ```sh
-pip install pandas matplotlib seaborn scikit-learn imbalanced-learn chardet openpyxl jinja2
+pip install pandas matplotlib seaborn scikit-learn imbalanced-learn chardet openpyxl jinja2 shap
 ```
 
 # Sobre os autores
