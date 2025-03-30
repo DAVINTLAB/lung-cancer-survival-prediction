@@ -1,15 +1,15 @@
 # Machine Learning for Lung Cancer Survival Prediction
 
-O câncer de pulmão é um dos tipos mais comuns e letais de câncer em todo o mundo. O diagnóstico precoce e o tratamento adequado desempenham um papel crucial na redução da mortalidade associada a essa doença. A inteligência artificial tem se tornado uma ferramenta promissora na medicina, tendo em vista que dos 64 estudos relacionados analisados 55 mencionam o uso de alguma técnica de aprendizado de máquina. Este estudo propõe a aplicação de técnicas de aprendizado de máquina para desenvolver e avaliar modelos que classifiquem pacientes com câncer de pulmão de acordo com seu tempo de sobrevida (curta ou longa). A incorporação desses modelos na prática clínica pode apoiar a tomada de decisão e a personalização dos tratamentos, visando melhores resultados clínicos e qualidade de vida para os pacientes.
+Lung cancer is one of the most common and lethal types of cancer worldwide. Early diagnosis and appropriate treatment play a crucial role in reducing mortality associated with this disease. Artificial intelligence has become a promising tool in medicine, given that of the 64 related studies analyzed, 55 mention the use of some machine learning technique. This study proposes the application of machine learning techniques to develop and evaluate models that classify lung cancer patients according to their survival time (short or long). The incorporation of these models into clinical practice can support decision-making and personalization of treatments, aiming at better clinical outcomes and quality of life for patients.
 
 
-# Dados
+# Dataset
 
-O conjunto de dados utilizado foi obtido do [TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga), contendo dados de pacientes com câncer de pulmão. O conjunto de dados conta com 56 colunas, com informações como gênero, etnia, raça, idade, ano de nascimento, ano de diagnóstico, estadiamento TNM clínico e patológico, classificação do tumor, método de diagnóstico, diagnóstico primário, dados sobre a existência de câncer anterior, progressão da doença, se existe doença residual após o tratamento, posição do tumor, presença ou não de outros tipos de tumor ao mesmo tempo e tipo de tratamento.
+The dataset used was obtained from [TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga), containing data from lung cancer patients. The dataset has 56 columns, with information such as gender, ethnicity, race, age, year of birth, year of diagnosis, clinical and pathological TNM staging, tumor classification, diagnostic method, primary diagnosis, data on the existence of previous cancer, disease progression, whether there is residual disease after treatment, tumor position, presence or absence of other types of tumor at the same time, and type of treatment. The **pre-processing.pdf** file shows how the pre-processing steps of the data obtained were carried out. The **TableauPrepStep1.tfl** and **TableauPrepStep2.tfl** files are the pre-processing flows performed with the Tableau Prep tool.
 
-# Implementação 
+# Implementation 
 
-Foram implementados cinco algoritmos de Machine learnig para analisar qual obtem o melhor desempenho na classificação dos pacientes
+Five Machine learning algorithms were implemented to analyze which one performs best in classifying patients:
 
 - Random Forest
 - Logistic Regression
@@ -17,9 +17,9 @@ Foram implementados cinco algoritmos de Machine learnig para analisar qual obtem
 - Decision Tree
 - Support Vector Classifier
 
-Os modelos foram implementados de duas formas **lung_cancer_survival_prediction.ipynb**, sem aplicar customização de parâmetros e **lung_cancer_survival_prediction_with_tunning.ipynb** aplicando ferramentas para identificar qual a melhor configuração para rodar os algoritmos para o conjunto de dados.
+The models were implemented in two ways **lung_cancer_survival_prediction.ipynb**, without applying parameter customization and **lung_cancer_survival_prediction_with_tunning.ipynb** applying tools to identify the best configuration to run the algorithms for the dataset. The notebooks have alternative codes to perform class balancing, offering different oversampling and undersampling techniques and combinations. Choose one of them to perform the test. 
 
-## Requisitos 
+## Requirements 
 
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
@@ -35,8 +35,8 @@ Os modelos foram implementados de duas formas **lung_cancer_survival_prediction.
 pip install pandas matplotlib seaborn scikit-learn imbalanced-learn chardet openpyxl jinja2 shap
 ```
 
-# Sobre os autores
+# About the authors
 
-Isabel H. Manssour - Professor coordenadora do DaVInt - 2017-current.  
-Rodrigo Henrich - Mestrando em ciência da computação - 2023-2025.  
-Mais informações podem ser encontradas [aqui](https://www.inf.pucrs.br/davint/).
+Isabel H. Manssour - Researcher and Professor Coordinator of DaVInt. 2017-current.  
+Rodrigo Henrich - Master Student in Computer Science - 2023-2025.  
+More information can be found at [here](https://www.inf.pucrs.br/davint/).
