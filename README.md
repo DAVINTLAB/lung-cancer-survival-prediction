@@ -17,8 +17,7 @@ Five Machine learning algorithms were implemented to analyze which one performs 
 - Decision Tree
 - Support Vector Classifier
 
-The models were implemented in two ways **lung_cancer_survival_prediction.ipynb**, without applying parameter customization and **lung_cancer_survival_prediction_with_tunning.ipynb** applying tools to identify the best configuration to run the algorithms for the dataset. The notebooks have alternative codes to perform class balancing, offering different oversampling and undersampling techniques and combinations. Choose one of them to perform the test. 
-
+The models were implemented in two ways: **lung_cancer_survival_prediction.ipynb**, without applying parameter customization, and **lung_cancer_survival_prediction_with_tunning.ipynb**, applying tools to identify the best configuration for running the algorithms on the dataset. The notebooks include alternative codes for performing class balancing, offering various oversampling and undersampling techniques, and their combinations. Choose one of them to perform the test.
 ## Requirements 
 
 - [Pandas](https://pandas.pydata.org/)
