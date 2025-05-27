@@ -1,6 +1,6 @@
 # Machine Learning for Lung Cancer Survival Prediction
 
-Lung cancer is one of the most common and lethal types of cancer worldwide. Early diagnosis and appropriate treatment play a crucial role in reducing mortality associated with this disease. Artificial intelligence has become a promising tool in medicine, given that of the 64 related studies analyzed, 55 mention the use of some machine learning technique. This study proposes the application of machine learning techniques to develop and evaluate models that classify lung cancer patients according to their survival time (short or long). The incorporation of these models into clinical practice can support decision-making and personalization of treatments, aiming at better clinical outcomes and quality of life for patients.
+Lung cancer is one of the most common and lethal types of cancer worldwide. Early diagnosis and appropriate treatment play a crucial role in reducing mortality associated with this disease. Artificial intelligence techniques can be used to support clinical approaches to lung cancer, helping healthcare professionals to make informed decisions and personalize treatments. This study proposes the application of supervised machine learning techniques to develop and evaluate models that can classify lung cancer patients according to their survival time, distinguishing between those with short and long survival times. The incorporation of these models into clinical practice can support decision-making and personalization of patient treatments.
 
 
 # Dataset
