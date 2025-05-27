@@ -34,8 +34,10 @@ The models were implemented in two ways: **lung_cancer_survival_prediction.ipynb
 pip install pandas matplotlib seaborn scikit-learn imbalanced-learn chardet openpyxl jinja2 shap
 ```
 
+# Citation
+Please, refer to this work by citing the following paper: Rodrigo Henrich, Rafael H. Bordini, Isabel H. Manssour. Using Machine Learning Techniques for Lung Cancer Survival Prediction. Proceedings of the 20th World Congress on Medical and Health Informatics (MedInfo 2025).
+
 # About the authors
 
-Isabel H. Manssour - Researcher and Professor Coordinator of DaVInt. 2017-current.  
-Rodrigo Henrich - Master Student in Computer Science - 2023-2025.  
-More information can be found at [here](https://www.inf.pucrs.br/davint/).
+Isabel H. Manssour -- Professor Coordinator of DaVInt -- 2017-current.  
+Rodrigo Henrich -- Master Student in Computer Science -- 2023-2025.  
