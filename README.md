@@ -5,7 +5,7 @@ Lung cancer is one of the most common and lethal types of cancer worldwide. Earl
 
 # Dataset
 
-The dataset used was obtained from [TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga), containing data from lung cancer patients. The dataset has 56 columns, with information such as gender, ethnicity, race, age, year of birth, year of diagnosis, clinical and pathological TNM staging, tumor classification, diagnostic method, primary diagnosis, data on the existence of previous cancer, disease progression, whether there is residual disease after treatment, tumor position, presence or absence of other types of tumor at the same time, and type of treatment. The **pre-processing.pdf** file shows how the pre-processing steps of the data obtained were carried out. The **TableauPrepStep1.tfl** and **TableauPrepStep2.tfl** files are the pre-processing flows performed with the Tableau Prep tool.
+The dataset used was obtained from the [TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga), containing data from patients with lung cancer. The dataset has 56 columns, with information such as gender, ethnicity, race, age, year of birth, year of diagnosis, clinical and pathological TNM staging, tumor classification, diagnostic method, primary diagnosis, data on the existence of previous cancer, disease progression, whether there is residual disease after treatment, tumor position, presence or absence of other types of tumor at the same time, and type of treatment. The **pre-processing.pdf** file illustrates the steps taken to preprocess the data obtained. The **TableauPrepStep1.tfl** and **TableauPrepStep2.tfl** files represent the preprocessing flows created using the Tableau Prep tool.
 
 # Implementation 
 
