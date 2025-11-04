@@ -35,9 +35,9 @@ pip install pandas matplotlib seaborn scikit-learn imbalanced-learn chardet open
 ```
 
 # Citation
-Please, refer to this work by citing the following paper: Rodrigo Henrich, Rafael H. Bordini, Isabel H. Manssour. Using Machine Learning Techniques for Lung Cancer Survival Prediction. Proceedings of the 20th World Congress on Medical and Health Informatics (MedInfo 2025).
+Please, refer to this work by citing the following paper: Rodrigo Henrich, Rafael H. Bordini, Isabel H. Manssour. Using Machine Learning Techniques for Lung Cancer Survival Prediction. Proceedings of the 20th World Congress on Medical and Health Informatics (MEDINFO), 2025, p. 856-860. https://doi.org/10.3233/shti250961.
 
 # About the authors
 
-Isabel H. Manssour -- Professor Coordinator of DaVInt -- 2017-current.  
+Isabel H. Manssour -- Researcher and Professor Coordinator of DaVInt.  
 Rodrigo Henrich -- Master Student in Computer Science -- 2023-2025.  
